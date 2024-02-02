@@ -1,12 +1,15 @@
         h1{
+            h1{
             color:rgb(246, 208, 215);
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color:rgb(78, 16, 16);
             font-size: 40px;
             font-style: oblique;
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                background-color: rgba(139, 0, 0, 0.513);
+            background-color: rgba(139, 0, 0, 0.513);
           
+        
+        }  
         
         }  
 
