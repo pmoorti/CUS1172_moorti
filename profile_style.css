@@ -1,0 +1,108 @@
+        h1{
+            color:rgb(246, 208, 215);
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color:rgb(78, 16, 16);
+            font-size: 40px;
+            font-style: oblique;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          
+        
+        }   
+
+            .custompadding4{
+                padding: 10px;
+                border: 5px solid maroon;
+                width: 400px;
+
+            }
+
+            hr{
+
+                border-top: 3px dotted maroon;
+            }
+
+            #photo_heading{
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                font-style: normal;
+                color:maroon;
+            }
+
+            img{
+                border: 10px maroon;
+                padding:5px;
+            
+            }
+
+            .computer_img{
+                border:dotted;
+            }
+
+            .me_img{
+                border:dashed;
+            }
+
+            .center{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .text_center{
+                text-align: center;
+            }
+
+            .organized_table>table{
+                border-width: 2px;
+                border-style: groove;
+                border-collapse: collapse;
+                border-color: maroon;
+                width:50%;
+                margin-left: auto;
+                margin-right: auto;
+                
+                
+
+            }
+            .organized_table>table th, .organized_table table td{
+                text-align: center;
+                border: 1px solid maroon
+            
+            }
+            input[type=text] {
+                border: 2px solid maroon;
+                border-radius: 4px;
+              }
+            input[type=submit]{
+                color: maroon;
+            }
+            .custom-list li{
+                background: rgb(242, 171, 182);
+                color: maroon;
+                margin: 5px;
+               
+            }
+
+            a{
+                color:maroon;
+            }
+            ul{
+                list-style-type: circle;
+            }
+
+            p{
+                border: 3px solid maroon;
+            
+            }
+
+            
+
+
+
+
+        
+
+            
+
+            
+

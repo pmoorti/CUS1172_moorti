@@ -1,0 +1,22 @@
+@media print{
+    .screen_only li{
+        display:none;
+    }
+    .screen_only2{
+        display:none;
+    }
+}
+
+@media  (max-width:640px){
+    body{
+
+        background-color: rgb(223, 156, 160);
+    }
+}
+
+@media (min-width:641px) and (max-width:770px){
+    h1{
+        background-color: maroon;
+    }
+}
+    
