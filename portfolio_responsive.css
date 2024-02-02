@@ -12,11 +12,22 @@
 
         background-color: rgb(223, 156, 160);
     }
+    h1{
+        background-color: maroon;
 }
 
 @media (min-width:641px) and (max-width:770px){
     h1{
         background-color: maroon;
     }
+}
+
+@media(min-width:771px){
+    h1{
+        background-color:rgb(148, 78, 90);
+    }
+    body{
+      background-color: rgb(247, 222, 226);
+        }
 }
     
