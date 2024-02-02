@@ -1,21 +1,34 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="profile_style.css">
+        <link rel="stylesheet" href="portfolio_responsive.css">
         <title> 
             My Profile Page 
         </title>
+
+
+        <style>
+            
+            h3{
+                color: rgb(148, 78, 90);
+                text-align: center
+            }
+
+        </style>
     </head>
-    <body>
-        <h1 style = "text-align: center;"> Welcome to my profile page!</h1>
+    <body style="background-color: rgb(247, 222, 226);">
+        <h1 style =  "text-align: center; background-color: rgba(139, 0, 0, 0.642);""> Welcome to my profile page!</h1>
         <form action="https://www.google.com/search">
             <input type="text" placeholder="Google a question!" name="q" width="100%"/>
             <input type="submit" value="search"/>
         </form>
         
         <h5>
-            <h3>
+            <h3 style="text-align: left; color:rgb(183, 84, 101)">
                 Menu:
             </h3>
-            <ol>
+            <ol class="custom-list screen_only">
               <li> <a href="#about_me">About Me</a> </li>
                <li> <a href="#education">Education</a></li>
                <li> <a href ="#projects">Projects</a></li>
@@ -27,35 +40,36 @@
             
             </ol>
             
+            
         </h5>
-        <h2>
+        <hr>
+        <p>
+        <h2 id="photo_heading">
             Here's a photo of me:
         </h2>
-        <img width="35%" src = "https://pmoorti.github.io/CUS1172_moorti/IMG_9231.jpg" >
-        <p> </p>
-        <p> </p>
-        <p> </p>
-    
+        <img width="35%" class="me_img center" src = "https://pmoorti.github.io/CUS1172_moorti/IMG_9231.jpg" >
+        
+        </p>
         <hr>
+        <p>
         <h3 id="about_me"> 
             About me: 
         </h3>
-         My name is Payal and I am current senior studying computer science at St.John's University in Queens, New York.
-         <p> </p>
-         <p> </p>
-        <p> </p>
+          My name is Payal and I am current senior studying computer science at St.John's University in Queens, New York.
+          </p>
+          
     
         <hr>
+        <p>
         <h3 id="education">
             Education:
         </h3>
-            I began my college career at the University of California, Santa Barbara in 2020 and transferred to St.Johns Univerisity in 2021. I majored in biology but then found a love for programming and decided to switch my major at the end of my sophmore year! I have been pursuing computer science ever since and I am expected to recieve my degree in Computer Science in December 2024. 
+           I began my college career at the University of California, Santa Barbara in 2020 and transferred to St.Johns Univerisity in 2021. I majored in biology but then found a love for programming and decided to switch my major at the end of my sophmore year! I have been pursuing computer science ever since and I am expected to recieve my degree in Computer Science in December 2024. 
+           </p>
 
-            <p> </p>
-            <p> </p>
-            <p> </p>
-    
+            
         <hr>
+        <p>
         <h3 id="projects">
             Projects:
         </h3>
@@ -64,14 +78,17 @@
             <li> Completed the JP Morgan Software engineering virtual experience offered by Forage where I interfaced with stock price data feed using Python and Typescript to edit code and display desired changes in graphs visualizing financial data.</li>
             <li> Conducted an analysis of Amazon orders spanning a decade leveraging Python to extract the cheapest and most expensive item, as well as the median price of orders and visualized spending habits including tax expenditures through bar graphs using Pandas and Matplotlib</li>
         </ul>
+        </p>
         <hr>
+        <p>
         <h3 id="programming_skills">Programming skills</h3>
+        <div class="organized_table">
         <table>
-            
             <tr>
-            
-                <td>Language</td>
-                <td>Level of Proficiency</td>
+                
+                <th>Language</th>
+                <th>Level of Proficiency</th>
+                
             
             </tr>
 
@@ -90,58 +107,61 @@
 
             
         </table>
-        <p> </p>
-        <p> </p>
-        <p> </p>
+        </div>
+        </p>
         <hr>
+        <p>
         <h3 id="hobbies_interests">
             Hobbies & Interests:
         </h3>
-        I enjoy spending time with friends and family, watching movies and tv shows, thrifting, and baking!
-        <p> </p>
-        <p> </p>
-        <p> </p>
+            I enjoy spending time with friends and family, watching movies and tv shows, thrifting, and baking!
+            </p>
+        
         <hr>
+        <p>
         <h3 id="fav_media">
             Favorite Media
         </h3>
         
             
-            <div id="video_anchor">
-                <h4>
+            <div class="screen_only2">
+                <h4 class="text_center">
                  Favorite Song: Night Fever (source: Beegees)
-                     <h5>(source: Beegees)</h5>
+                     <h5 class="text_center">(source: Beegees)</h5>
                 </h4>
-                <video width="400" controls>
+                <div  class="custompadding4 center">
+                <video width="400"controls poster="https://www.nme.com/wp-content/uploads/2017/01/saturdaynightfever.jpg">
                     <source src="https://pmoorti.github.io/CUS1172_moorti//Bee%20Gees%20-%20Night%20Fever%20(Official%20Video).mp4" type ="video/mp4">
                 </video>
-                <p> </p>
-                <p> </p>
+                </div>
             
-                <h4>
+                <h4 class="text_center">
                 Favorite Film: Nimona 
-                    <h5>(source: Netflix)</h5>
+                    <h5 class="text_center">(source: Netflix)</h5>
                 </h4>
-                <video width="400" controls>
+                <div  class="custompadding4 center">
+                <video width="400" controls poster="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbgtKxF0tEknIWeetiulpS_PCAZEJWryKYFUR8rt2oSpGOfToZxwCEznVyKwbyPXgp28E50GDKatr-NruOv5uUXsdUyenwov2bK0Vbu5AEz3NC182Bl4vgyGONXx79NMlPNpZg.jpg?r=930">
                     <source src="https://pmoorti.github.io/CUS1172_moorti/Nimona%20Official%20Trailer%20Netflix.mp4" type ="video/mp4">
                 </video>
-                <p> </p>
-                <p> </p>
-                <h4>
+                </div>
+                
+                <h4 class="text_center">
                     Favorite TV Show: Avatar the Last Airbender 
-                     <h5>(source: YouTube)</h5>
+                     <h5 class="text_center">(source: YouTube)</h5>
                 </h4>
-                   <video width="400" controls>
+                <div class="custompadding4 center">
+                   <video width="400" controls poster="https://media.vanityfair.com/photos/5f5245d91e10df7a77868af6/master/pass/avatar-the-last-airbender.jpg">
                        <source src="https://pmoorti.github.io/CUS1172_moorti/Avatar%20The%20Last%20Airbender%20Original%20Trailer%20(2004)%20(1).mp4" type ="video/mp4">
                    </video>
+                </div>
 
             </div>
-            <p> </p>
-            <p> </p>
-            <p></p>
+        </p>
+           
         
             
         <hr>
+        <p>
         <h3 id="fav_websites">
             Favorite Websites
         </h3>
@@ -151,17 +171,18 @@
            <li> <a href = "https://www.netflix.com/" target="_blank"> Click here to visit Netflix</a></li>
 
         </ol>
-        <p> </p>
-        <p> </p>
-        <p> </p>
+        </p>
+       
         <hr>
+        <p>
         <h3 id="class_projects">
             Projects For this class
         </h3>
         <ol>
             <li><a href="https://pmoorti.github.io/CUS1172_moorti/profile.html" target="_blank">Profile Page</a></li>
         </ol>
-        <img width = "30%" src="https://content.schoolinsites.com/api/documents/455ebb94ed8e4b4cbbbb282a56431a29.png" />
+        <img width = "30%" class="computer_img" src="https://content.schoolinsites.com/api/documents/455ebb94ed8e4b4cbbbb282a56431a29.png" />
+        </p>
 
     </body>
 
