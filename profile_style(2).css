@@ -1,0 +1,131 @@
+ h1{
+            color:rgb(246, 208, 215);
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color:rgb(78, 16, 16);
+            font-size: 40px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgba(139, 0, 0, 0.513);
+          
+        
+        }  
+        
+        body{
+            background-color: rgb(247, 222, 226);
+        }
+
+           
+
+            
+
+            hr {
+
+                border-top: 5px dotted; 
+                border-top-color: rgb(146, 39, 64);
+                
+            }
+
+            #photo_heading{
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                font-style: normal;
+                color:maroon;
+            }
+
+            img{
+                border: 10px maroon;
+                padding:5px;
+            
+            }
+
+            .computer_img{
+                border:dotted;
+            }
+
+            
+
+            .center{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .text_center{
+                text-align: center;
+            }
+
+            .organized_table>table{
+                border-width: 2px;
+                border-style: groove;
+                border-collapse: collapse;
+                border-color: maroon;
+                width:50%;
+                margin-left: auto;
+                margin-right: auto;
+                
+                
+
+            }
+            .organized_table>table th, .organized_table table td{
+                text-align: center;
+                border: 1px solid maroon
+            
+            }
+            input[type=text] {
+                border: 2px solid maroon;
+                border-radius: 4px;
+              }
+            input[type=submit]{
+                color: maroon;
+            }
+            .custom-list li{
+                background: rgb(242, 171, 182);
+                color: maroon;
+                margin: 5px;
+               
+            }
+
+            a{
+                color:maroon;
+            }
+            ul{
+                list-style-type: circle;
+            }
+
+            p{
+                border: 2px solid maroon;
+            
+            }
+            .custom-col{
+                background-color: #e7859481;
+                transition: background-color 0.3s ease; 
+              }
+            .custom-col:hover {
+                background-color:rgba(134, 24, 64, 0.545);
+              }
+              .col-border{
+                border-right: 1px solid maroon;
+              }
+
+              .panel-body {
+                padding: 20px; 
+              }
+              .row-border{
+                border-bottom: 1px solid ;
+              }
+
+             
+              
+
+            
+            
+            
+
+
+
+
+        
+
+            
+
+            
+
